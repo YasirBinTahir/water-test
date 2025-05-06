@@ -45,8 +45,8 @@ model = joblib.load("random_forest_model.joblib")
 st.markdown("<h3>🧪 Enter the water quality parameters:</h3>", unsafe_allow_html=True)
 
 columns = [
-    "ph", "Hardness", "Solids", "Chloramines", "Sulfate",
-    "Conductivity", "Organic_carbon", "Trihalomethanes", "Turbidity"
+    "pH", "Hardness ", "Solids", "Chloramines", "Sulfate ",
+    "Conductivity", "Organic_carbon ", "Trihalomethanes", "Turbidity"
 ]
 
 user_inputs = []
